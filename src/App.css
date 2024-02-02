@@ -1,0 +1,65 @@
+/* App.css */
+.App {
+  border: 1px solid #f3f3f3;
+  margin: 100px 550px; /* Auto margin to center horizontally */
+  padding: 60px 60px px 20px; /* Adjusted padding for more space */
+  max-width: 200px; /* Set a maximum width */
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust the width as needed */
+
+}
+
+
+.to-do-container{
+
+display: flex;
+
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.to-do-container ul li.todo-item {
+  cursor: pointer;
+  list-style-type: "👉";
+}
+
+.to-do-container ul li.todo-item.done {
+  text-decoration: line-through;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+
+h2 {
+  text-align: center;
+  color: #c29c9c; /* Set the default color */
+  transition: color 0.3s ease; /* Smooth transition on color change */
+}
+
+h2:hover {
+  color: #e2e9eb; /* Change the color on hover */
+}
+
+
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.trash {
+  margin-left: 8px; /* Adjust the margin as needed */
+  cursor: pointer;
+}
+
+
+
+.to-do-container button {
+  margin-top: 10px; /* Adjust the margin as needed */
+}
